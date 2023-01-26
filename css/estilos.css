@@ -1,0 +1,57 @@
+body{
+    background-color: darkblue;
+}
+.h1{
+    color: aliceblue;
+    font-size: 20px;
+}
+h3{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+h6{
+    color: antiquewhite;
+}
+
+.navbar{
+    height: 100px;
+    color: aliceblue;
+    background-color:darkblue ;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: aliceblue;
+}
+.card-text{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.center{
+    text-align: center;
+}
+.me{
+    background-color: azure;
+}
+.card{
+    padding: 14px;
+    margin: 4px;
+}
+.footer{
+    padding-top: 15px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    min-height: 60px;
+    color: antiquewhite;
+    
+}
+.bi{
+    padding: 4px;
+    color: antiquewhite;
+}
+.bi:hover{
+    background-color:darkslateblue;
+   
+}
