@@ -19,7 +19,7 @@ let meData = [
     localidad: "Santa Elena",
     provincia: "Entre Rios",
     estadoCivil: "Soltero",
-    img: "../img/perfil.jpg",
+    img: "../img/perfil.png",
     secundario: "Bachiller Informático Contable",
     institucionSec: "Instituto Santa Rosa de Lima D-103",
     titulo: "Técnico Universitario en Tecnologías de la Información",
