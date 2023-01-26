@@ -1,6 +1,10 @@
 body{
     background-color: darkblue;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 106px;
 }
+
+   
 .h1{
     color: aliceblue;
     font-size: 20px;
@@ -14,17 +18,19 @@ h6{
 }
 
 .navbar{
-    height: 100px;
     color: aliceblue;
     background-color:darkblue ;
     margin-bottom: 10px;
+    
 }
 .nav-link{
     color: aliceblue;
+    text-decoration: none;
 }
 .card-text{
     margin-top: 6px;
     margin-bottom: 6px;
+    list-style: none;
 }
 .center{
     text-align: center;

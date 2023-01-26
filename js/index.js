@@ -72,12 +72,14 @@ meData.map((x) => {
           <p class="card-text" id="univ">${x.region}</p>       
         </div>
         <div class="card-body text-start">
-          <p class="card-text" id="nacimiento">Fecha de nacimiento: ${x.dia} ${x.mes} de ${x.anio}</p>
-          <p class="card-text" id="nacionalidad">Nacionalidad: ${x.nacionalidad}</p>
-          <p class="card-text" id="estCivil">Estado Civil: ${x.estadoCivil}</p>
-          <p class="card-text" id="direccion">Direccion: ${x.calle}  ${x.numero}</p>
-          <p class="card-text" id="localidad">Localidad: ${x.localidad}</p>
-          <p class="card-text" id="localidad">Provincia: ${x.provincia}</p>
+        <ul>
+          <li class="card-text" id="nacimiento">Fecha de nacimiento: ${x.dia} ${x.mes} de ${x.anio}</li>
+          <li class="card-text" id="nacionalidad">Nacionalidad: ${x.nacionalidad}</li>
+          <li class="card-text" id="estCivil">Estado Civil: ${x.estadoCivil}</li>
+          <li class="card-text" id="direccion">Direccion: ${x.calle}  ${x.numero}</li>
+          <li class="card-text" id="localidad">Localidad: ${x.localidad}</li>
+          <li class="card-text" id="localidad">Provincia: ${x.provincia}</li>
+        </ul>
         </div>
       </div>
     </div>
@@ -126,5 +128,5 @@ meData.map((x) => {
     </div>`;
   })
 
-  
+
 
