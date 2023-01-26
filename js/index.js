@@ -128,5 +128,13 @@ meData.map((x) => {
     </div>`;
   })
 
+  let myName = document.getElementById("nombrecompleto");
+
+  myName.addEventListener('mouseover',function(){
+    myName.style.color='darkblue'
+  })
+  myName.addEventListener('mouseout',function(){
+    myName.style.color='black'
+  })
 
 
