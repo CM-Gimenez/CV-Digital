@@ -17,9 +17,10 @@ let meData = [
     calle: "Corrientes",
     numero: "1079",
     localidad: "Santa Elena",
+    codigoPostal:"3192",
     provincia: "Entre Rios",
     estadoCivil: "Soltero",
-    perfil: "../img/react.png",
+    perfil: "../img/perfil.png",
     secundario: "Bachiller Informático Contable",
     institucionSec: "Instituto Santa Rosa de Lima D-103",
     titulo: "Técnico Universitario en Tecnologías de la Información",
@@ -40,50 +41,27 @@ let meData = [
     linkedin: "",
   },
 ];
-let skill = [
-    { nombre: "Java", img:"../img/java.png"},
-    { nombre: "Javascript", img:"../img/javascript.png"},
-    { nombre: "Html", img:"../img/html5.png"},
-    { nombre: "Github", img:"../img/github.png"},
-    { nombre: "Laravel", img:"../img/laravel.png"},
-    { nombre: "MySql", img:"../img/mysql.png"},
-    { nombre: "Node.js", img:"../img/node.png"},
-    { nombre: "Office", img:"../img/office.png"},
-    { nombre: "CSS", img:"../img/ccs3.png"},
-    { nombre: "Php", img:"../img/php.png"},
-    { nombre: "React.js", img:"../img/react.png"},
-];
 
 meData.map((x) => {
-  data.innerHTML += `<div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img
-          src='${x.perfil}'
-          class="img-fluid rounded-start"
-          alt="Card title"
-        />
-      </div>
-      <div class="col-md-8 me">
-        <div class="card-body text-center">
-          <h5 class="card-title" id="nombrecompleto">${x.apellido} ${x.nombre}</h5>
-          <p class="card-text" id="carrera">${x.titulo}</p>
-          <p class="card-text" id="univ">${x.nombreuniversidad}</p>
-          <p class="card-text" id="univ">${x.region}</p>       
-        </div>
-        <div class="card-body text-start">
-        <ul>
-          <li class="card-text" id="nacimiento">Fecha de nacimiento: ${x.dia} ${x.mes} de ${x.anio}</li>
-          <li class="card-text" id="nacionalidad">Nacionalidad: ${x.nacionalidad}</li>
-          <li class="card-text" id="estCivil">Estado Civil: ${x.estadoCivil}</li>
-          <li class="card-text" id="direccion">Direccion: ${x.calle}  ${x.numero}</li>
-          <li class="card-text" id="localidad">Localidad: ${x.localidad}</li>
-          <li class="card-text" id="localidad">Provincia: ${x.provincia}</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>`
+  data.innerHTML += `<div class="col-md-8 me">
+  <div class="card-body text-center">
+    <h5 class="card-title" id="nombrecompleto">${x.apellido} ${x.nombre}</h5>
+    <p class="card-text" id="carrera">${x.titulo}</p>
+    <p class="card-text" id="univ">${x.nombreuniversidad}</p>
+    <p class="card-text" id="univ">${x.region}</p>       
+  </div>
+  <div class="card-body text-start">
+  <ul>
+    <li class="card-text" id="nacimiento">Fecha de nacimiento: ${x.dia} ${x.mes} de ${x.anio}</li>
+    <li class="card-text" id="nacionalidad">Nacionalidad: ${x.nacionalidad}</li>
+    <li class="card-text" id="estCivil">Estado Civil: ${x.estadoCivil}</li>
+    <li class="card-text" id="direccion">Direccion: ${x.calle}  ${x.numero}</li>
+    <li class="card-text" id="localidad">Localidad: ${x.localidad}</li>
+    <li class="card-text" id="localidad">Localidad: ${x.codigoPostal}</li>
+    <li class="card-text" id="localidad">Provincia: ${x.provincia}</li>
+  </ul>
+  </div>
+</div>`
 })
 
 meData.map((x) => {
