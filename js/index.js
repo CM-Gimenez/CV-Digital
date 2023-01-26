@@ -19,7 +19,7 @@ let meData = [
     localidad: "Santa Elena",
     provincia: "Entre Rios",
     estadoCivil: "Soltero",
-    //perfil: "../img/perfil.png",
+    perfil: "../img/react.png",
     secundario: "Bachiller Informático Contable",
     institucionSec: "Instituto Santa Rosa de Lima D-103",
     titulo: "Técnico Universitario en Tecnologías de la Información",
@@ -59,7 +59,7 @@ meData.map((x) => {
     <div class="row g-0">
       <div class="col-md-4">
         <img
-          src="../img/perfil.png"
+          src='${x.perfil}'
           class="img-fluid rounded-start"
           alt="Card title"
         />
